@@ -1,0 +1,11 @@
+# dsh-mimo-tts bundle patch
+#
+# Installed with:
+#   dsh plugin --profile desktop add link:D:\develop\project\dsh_project\cyber_girl_friend
+#
+# The CLI reconciles `dsh.profile.bundles` against installed packages and, seeing
+# this declaration, appends `dsh-mimo-tts` to the bundle stack; the profile boot
+# then merges this patch (a single `insert` of the plugin row).
+- insert:
+    - id: mimo-tts
+      name: 'dsh-mimo-tts'

@@ -1,0 +1,12 @@
+# Development scratch: recorded samples, round-trip fixtures, patch backups.
+# None of it belongs in the published package or in git history.
+dev/
+
+node_modules/
+*.log
+
+# Local audio fixtures that may contain a voice sample you do not have the
+# right to redistribute — keep them out of the repository.
+*.mp3
+*.wav
+*.pcm
